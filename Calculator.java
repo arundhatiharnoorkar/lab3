@@ -2,9 +2,7 @@ public class Calculator {
 
     
 
-    public int subtract(int a, int b) {
-        return a - b;
-    }
+    
 
     public int multiply(int a, int b) {
         return a * b;
@@ -21,7 +19,7 @@ public class Calculator {
         Calculator calc = new Calculator();
 
         
-        System.out.println(calc.subtract(10, 5));
+        
         System.out.println(calc.multiply(10, 5));
         System.out.println(calc.divide(10, 5));
     }
