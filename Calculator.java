@@ -20,7 +20,7 @@ public class Calculator {
 
         
         
-        System.out.println(calc.multiply(10, 5));
+        System.out.println(calc.multiply(15, 5));
         System.out.println(calc.divide(10, 5));
     }
 }
