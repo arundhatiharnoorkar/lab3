@@ -12,3 +12,13 @@ class MyHandler(SimpleHTTPRequestHandler):
 server = HTTPServer(("0.0.0.0", PORT), MyHandler)
 print(f"Server running on port {PORT}...")
 server.serve_forever()
+
+FROM python:3.9-slim
+
+WORKDIR /app
+
+COPY app.py .
+
+EXPOSE 5020
+
+CMD ["python", "app.py"]
